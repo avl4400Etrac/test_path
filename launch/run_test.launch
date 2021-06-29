@@ -1,0 +1,4 @@
+<launch>
+<param name="my_img_path" value="$(find test_path)/img"/>
+<node pkg="test_path" name="test_path" type="test.py" output="screen"></node>
+</launch>
